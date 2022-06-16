@@ -116,7 +116,7 @@ async def terminate(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -153,7 +153,7 @@ async def promote(strses, grp, user):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -176,7 +176,7 @@ async def user2fa(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -226,7 +226,7 @@ async def joingroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join(""@i_q_u_1")
+      await X(join("@i_q_u_1")
     except BaseException:
       pass
     try:
@@ -267,7 +267,7 @@ async def delgroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -297,7 +297,7 @@ async def usermsgs(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -321,7 +321,7 @@ async def userbans(strses, grp):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -348,7 +348,7 @@ async def userchannels(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -373,7 +373,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "R125R"
+channel = "i_q_u_1"
 menu = '''
 
 "A" :~ [معرفه قنوات/كروبات التي يملكها]
@@ -405,7 +405,7 @@ menu = '''
 انتضرو قريبا المزيد من المميزات 🙋‍♂️
 '''
 mm = '''
-ملاحظه انضم اولا للدعم @R125R
+ملاحظه انضم اولا للدعم @i_q_u_1
 '''
 
 keyboard = [
@@ -430,7 +430,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("المطور", "https://t.me/QQQLO")
+    Button.url("المطور", "https://t.me/iq_u1")
     ]
 ]
 
@@ -447,7 +447,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("دوس هنا", f"https://t.me/QQQLO")
+        Button.url("دوس هنا", f"https://t.me/iq_u1")
         ]
       ]
     await event.reply("اولا انضم الى القناه!\n بعدها جرب الضغط على~ /hack", buttons=legendbye)
@@ -488,7 +488,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("المطور", "https://t.me/QQQLO")
+        Button.url("المطور", "https://t.me/iq_u1")
         ]
     ]
     await x.send_message(f"اختر ما تريد فعله معه الجلسه \n\n{menu}", buttons=keyboard)
