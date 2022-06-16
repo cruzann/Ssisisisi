@@ -938,5 +938,5 @@ async def users(event):
       i = await gcastc(strses.text, msg.text)
       await event.reply(f"Done Gcasted In {i} Private😗😗.", buttons=keyboard)
 
-print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @iq_u1
+print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @iq_u1")
 client.run_until_disconnected()
