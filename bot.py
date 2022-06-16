@@ -226,7 +226,7 @@ async def joingroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@i_q_u_1")
+     await X(join("@i_q_u_1"))
     except BaseException:
       pass
     try:
