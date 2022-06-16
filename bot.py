@@ -62,7 +62,7 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("i_q_u_1))
+      await bot(join("i_q_u_1"))
     except BaseException:
       pass
     try:
